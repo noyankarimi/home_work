@@ -1,3 +1,4 @@
+print("This is the calculator")
 a = float(input("Enter your first number :"))
 b = float(input("Enter your second number :"))
 decide = input("What do you want me to do? ")
@@ -9,6 +10,7 @@ elif decide == "cross" :
     print (a * b)
 elif decide == "devide" :
     print (a / b)
+
 
 
     
